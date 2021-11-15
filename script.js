@@ -111,7 +111,9 @@ function showPreviousTrailer() {
   seeMoreButton.classList.remove("showMovieInfo");
   seeMoreButton.classList.add("hideMovieInfo");
 
-  stateMovies.movieCounter = (5 + stateMovies.movieCounter - 1) % 5;
+  stateMovies.movieCounter =
+    (stateMovies.movies.length + stateMovies.movieCounter - 1) %
+    stateMovies.movies.length;
   setTimeout(() => setMovie(stateMovies.movieCounter), 500);
 }
 
@@ -128,7 +130,8 @@ function showNextTrailer() {
   seeMoreButton.classList.remove("showMovieInfo");
   seeMoreButton.classList.add("hideMovieInfo");
 
-  stateMovies.movieCounter = (stateMovies.movieCounter + 1) % 5;
+  stateMovies.movieCounter =
+    (stateMovies.movieCounter + 1) % stateMovies.movies.length;
   setTimeout(() => setMovie(stateMovies.movieCounter), 500);
 }
 
