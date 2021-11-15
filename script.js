@@ -15,7 +15,7 @@ let stateMovies = {
       about:
         "the story of Vincent van Gogh's (Willem Dafoe) stay in Auvers-sur-Oise, France, leading up to his tragic death",
       trailer: "T77PDm3e1iE",
-      url: "./moviepage/movie1/index.html",
+      url: "./moviepage/movie2/index.html",
     },
     {
       creator: "Lee Chang-dong",
@@ -23,7 +23,7 @@ let stateMovies = {
       about:
         'The film is based on the short stories "Barn Burning" from The Elephant Vanishes by Haruki Murakami and "Barn Burning" by William Faulkner',
       trailer: "wi6Kw7V8gXk",
-      url: "./moviepage/movie1/index.html",
+      url: "./moviepage/movie3/index.html",
     },
     {
       creator: "Jeffrey Lieber",
@@ -31,7 +31,7 @@ let stateMovies = {
       about:
         "Impulse is an American science fiction drama streaming television series based on the 2013 Steven Gould novel Impulse. ",
       trailer: "OdKCzhU7kQI",
-      url: "./moviepage/movie1/index.html",
+      url: "./moviepage/movie4/index.html",
     },
     {
       creator: "Elvira Lind",
@@ -39,7 +39,7 @@ let stateMovies = {
       about:
         "When a kind-hearted prison officer is transferred to the letter room, he soon gets involved in an inmate's personal affairs.",
       trailer: "06qYirv9jzI",
-      url: "./moviepage/movie1/index.html",
+      url: "./moviepage/movie5/index.html",
     },
   ],
   movieCounter: 0,
@@ -111,7 +111,9 @@ function showPreviousTrailer() {
   seeMoreButton.classList.remove("showMovieInfo");
   seeMoreButton.classList.add("hideMovieInfo");
 
-  stateMovies.movieCounter = (5 + stateMovies.movieCounter - 1) % 5;
+  stateMovies.movieCounter =
+    (stateMovies.movies.length + stateMovies.movieCounter - 1) %
+    stateMovies.movies.length;
   setTimeout(() => setMovie(stateMovies.movieCounter), 500);
 }
 
@@ -128,7 +130,8 @@ function showNextTrailer() {
   seeMoreButton.classList.remove("showMovieInfo");
   seeMoreButton.classList.add("hideMovieInfo");
 
-  stateMovies.movieCounter = (stateMovies.movieCounter + 1) % 5;
+  stateMovies.movieCounter =
+    (stateMovies.movieCounter + 1) % stateMovies.movies.length;
   setTimeout(() => setMovie(stateMovies.movieCounter), 500);
 }
 
