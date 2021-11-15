@@ -16,3 +16,6 @@ function closeMenu() {
 
 closeMenuButton.addEventListener("click", closeMenu);
 menuButton.addEventListener("click", openMenu);
+
+let wrapper = document.querySelector(".wrapper");
+wrapper.classList.add("showContact");

@@ -373,6 +373,30 @@ nav > .follow-links-container > .follow-links > a > .join-us:hover {
   flex-direction: column;
 }
 
+.discover-container > .wrapper {
+  z-index: 4;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #f0f2f3;
+}
+
+.showDiscover {
+  animation-name: showDiscover;
+  animation-duration: 0.7s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes showDiscover {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
 .discover-container > div {
   display: flex;
   width: 100%;
