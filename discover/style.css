@@ -432,64 +432,64 @@ nav > .follow-links-container > .follow-links > a > .join-us:hover {
   transition: all 0.5s ease-out;
 }
 
-.discover-container > div:nth-child(1) > a:nth-child(1) > div:before {
+.discover-container > div:nth-child(2) > a:nth-child(1) > div:before {
   background-color: #5000d163;
 }
-.discover-container > div:nth-child(1) > a:nth-child(2) > div:before {
+.discover-container > div:nth-child(2) > a:nth-child(2) > div:before {
   background-color: #00350b79;
 }
-.discover-container > div:nth-child(1) > a:nth-child(3) > div:before {
+.discover-container > div:nth-child(2) > a:nth-child(3) > div:before {
   background-color: #20202081;
 }
-.discover-container > div:nth-child(1) > a:nth-child(4) > div:before {
+.discover-container > div:nth-child(2) > a:nth-child(4) > div:before {
   background-color: #0091b663;
 }
-.discover-container > div:nth-child(2) > a:nth-child(1) > div:before {
+.discover-container > div:nth-child(3) > a:nth-child(1) > div:before {
   background-color: #15690063;
 }
-.discover-container > div:nth-child(2) > a:nth-child(2) > div:before {
+.discover-container > div:nth-child(3) > a:nth-child(2) > div:before {
   background-color: #0085b963;
 }
-.discover-container > div:nth-child(2) > a:nth-child(3) > div:before {
+.discover-container > div:nth-child(3) > a:nth-child(3) > div:before {
   background-color: #00bd7463;
 }
-.discover-container > div:nth-child(2) > a:nth-child(4) > div:before {
+.discover-container > div:nth-child(3) > a:nth-child(4) > div:before {
   background-color: #d6000063;
 }
-.discover-container > div:nth-child(3) > a:nth-child(1) > div:before {
+.discover-container > div:nth-child(4) > a:nth-child(1) > div:before {
   background-color: #aebb0063;
 }
-.discover-container > div:nth-child(3) > a:nth-child(2) > div:before {
+.discover-container > div:nth-child(4) > a:nth-child(2) > div:before {
   background-color: #00799763;
 }
-.discover-container > div:nth-child(3) > a:nth-child(3) > div:before {
+.discover-container > div:nth-child(4) > a:nth-child(3) > div:before {
   background-color: #a0c40063;
 }
-.discover-container > div:nth-child(3) > a:nth-child(4) > div:before {
+.discover-container > div:nth-child(4) > a:nth-child(4) > div:before {
   background-color: #96000063;
 }
-.discover-container > div:nth-child(4) > a:nth-child(1) > div:before {
+.discover-container > div:nth-child(5) > a:nth-child(1) > div:before {
   background-color: #46002963;
 }
-.discover-container > div:nth-child(4) > a:nth-child(2) > div:before {
+.discover-container > div:nth-child(5) > a:nth-child(2) > div:before {
   background-color: #005baf63;
 }
-.discover-container > div:nth-child(4) > a:nth-child(3) > div:before {
+.discover-container > div:nth-child(5) > a:nth-child(3) > div:before {
   background-color: #47140063;
 }
-.discover-container > div:nth-child(4) > a:nth-child(4) > div:before {
+.discover-container > div:nth-child(5) > a:nth-child(4) > div:before {
   background-color: #00473563;
 }
-.discover-container > div:nth-child(5) > a:nth-child(1) > div:before {
+.discover-container > div:nth-child(6) > a:nth-child(1) > div:before {
   background-color: #cf990263;
 }
-.discover-container > div:nth-child(5) > a:nth-child(2) > div:before {
+.discover-container > div:nth-child(6) > a:nth-child(2) > div:before {
   background-color: #00394763;
 }
-.discover-container > div:nth-child(5) > a:nth-child(3) > div:before {
+.discover-container > div:nth-child(6) > a:nth-child(3) > div:before {
   background-color: #47000063;
 }
-.discover-container > div:nth-child(5) > a:nth-child(4) > div:before {
+.discover-container > div:nth-child(6) > a:nth-child(4) > div:before {
   background-color: #332b2b63;
 }
 
@@ -509,64 +509,64 @@ nav > .follow-links-container > .follow-links > a > .join-us:hover {
   color: white;
 }
 
-.discover-container > div:nth-child(1) > a:nth-child(1) > div:after {
+.discover-container > div:nth-child(2) > a:nth-child(1) > div:after {
   content: "01";
 }
-.discover-container > div:nth-child(1) > a:nth-child(2) > div:after {
+.discover-container > div:nth-child(2) > a:nth-child(2) > div:after {
   content: "02";
 }
-.discover-container > div:nth-child(1) > a:nth-child(3) > div:after {
+.discover-container > div:nth-child(2) > a:nth-child(3) > div:after {
   content: "03";
 }
-.discover-container > div:nth-child(1) > a:nth-child(4) > div:after {
+.discover-container > div:nth-child(2) > a:nth-child(4) > div:after {
   content: "04";
 }
-.discover-container > div:nth-child(2) > a:nth-child(1) > div:after {
+.discover-container > div:nth-child(3) > a:nth-child(1) > div:after {
   content: "05";
 }
-.discover-container > div:nth-child(2) > a:nth-child(2) > div:after {
+.discover-container > div:nth-child(3) > a:nth-child(2) > div:after {
   content: "06";
 }
-.discover-container > div:nth-child(2) > a:nth-child(3) > div:after {
+.discover-container > div:nth-child(3) > a:nth-child(3) > div:after {
   content: "07";
 }
-.discover-container > div:nth-child(2) > a:nth-child(4) > div:after {
+.discover-container > div:nth-child(3) > a:nth-child(4) > div:after {
   content: "08";
 }
-.discover-container > div:nth-child(3) > a:nth-child(1) > div:after {
+.discover-container > div:nth-child(4) > a:nth-child(1) > div:after {
   content: "09";
 }
-.discover-container > div:nth-child(3) > a:nth-child(2) > div:after {
+.discover-container > div:nth-child(4) > a:nth-child(2) > div:after {
   content: "10";
 }
-.discover-container > div:nth-child(3) > a:nth-child(3) > div:after {
+.discover-container > div:nth-child(4) > a:nth-child(3) > div:after {
   content: "11";
 }
-.discover-container > div:nth-child(3) > a:nth-child(4) > div:after {
+.discover-container > div:nth-child(4) > a:nth-child(4) > div:after {
   content: "12";
 }
-.discover-container > div:nth-child(4) > a:nth-child(1) > div:after {
+.discover-container > div:nth-child(5) > a:nth-child(1) > div:after {
   content: "13";
 }
-.discover-container > div:nth-child(4) > a:nth-child(2) > div:after {
+.discover-container > div:nth-child(5) > a:nth-child(2) > div:after {
   content: "14";
 }
-.discover-container > div:nth-child(4) > a:nth-child(3) > div:after {
+.discover-container > div:nth-child(5) > a:nth-child(3) > div:after {
   content: "15";
 }
-.discover-container > div:nth-child(4) > a:nth-child(4) > div:after {
+.discover-container > div:nth-child(5) > a:nth-child(4) > div:after {
   content: "16";
 }
-.discover-container > div:nth-child(5) > a:nth-child(1) > div:after {
+.discover-container > div:nth-child(6) > a:nth-child(1) > div:after {
   content: "17";
 }
-.discover-container > div:nth-child(5) > a:nth-child(2) > div:after {
+.discover-container > div:nth-child(6) > a:nth-child(2) > div:after {
   content: "18";
 }
-.discover-container > div:nth-child(5) > a:nth-child(3) > div:after {
+.discover-container > div:nth-child(6) > a:nth-child(3) > div:after {
   content: "19";
 }
-.discover-container > div:nth-child(5) > a:nth-child(4) > div:after {
+.discover-container > div:nth-child(6) > a:nth-child(4) > div:after {
   content: "20";
 }
 
