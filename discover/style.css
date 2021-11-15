@@ -640,7 +640,7 @@ nav > .follow-links-container > .follow-links > a > .join-us:hover {
   > div:nth-child(1)::before {
   content: "";
   position: absolute;
-  left: -15%;
+  left: -15px;
   top: 46%;
   width: 7px;
   height: 2px;
